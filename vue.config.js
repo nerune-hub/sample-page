@@ -1,6 +1,6 @@
 // github pages用に追加
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production'
-    ? '/weather-app/'   //任意
+    // ? '/weather-app/'   //任意
     : '/'
 }
