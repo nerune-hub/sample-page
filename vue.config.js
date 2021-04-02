@@ -1,5 +1,5 @@
 module.exports = {
-  outputDir: './docs', //githubpages用 distの代わり
+  // outputDir: './docs', //githubpages用 distの代わり
   publicPath: process.env.NODE_ENV === 'production'
     ? '/weather-app/'   //任意
     : '/'
