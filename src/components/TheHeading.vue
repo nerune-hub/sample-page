@@ -1,4 +1,5 @@
 <template>
+  <p>ok, happy coding!</p>
 </template>
 
 <script>

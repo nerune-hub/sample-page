@@ -1,16 +1,17 @@
 <template>
-  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+  <TheHeading></TheHeading>
   <HelloWorld></HelloWorld>
 </template>
 
-
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import TheHeading from './components/TheHeading.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
+    TheHeading,
+    HelloWorld
   }
 }
 </script>
