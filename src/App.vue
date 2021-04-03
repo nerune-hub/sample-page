@@ -1,17 +1,17 @@
 <template>
   <TheHeading></TheHeading>
-  <HelloWorld></HelloWorld>
+  <TheSidebar></TheSidebar>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 import TheHeading from './components/TheHeading.vue'
+import TheSidebar from './components/TheSidebar.vue'
 
 export default {
   name: 'App',
   components: {
     TheHeading,
-    HelloWorld
+    TheSidebar,
   }
 }
 </script>
