@@ -25,4 +25,10 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
+/* CSS変数で色定義 */
+:root {
+  --white: white;
+  --grey: grey;
+}
 </style>

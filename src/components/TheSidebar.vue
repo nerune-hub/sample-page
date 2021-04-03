@@ -11,11 +11,11 @@
 </template>
 
 <script>
-// const btn = document.querySelector('.btn-menu');
-// const nav = document.querySelector('.main-nav');
-// btn.addEventListerner('click', () => {
-//   nav.classList.toggle('open-menu');
-// })
+const btn = document.querySelector('.btn-menu');
+const nav = document.querySelector('.main-nav');
+btn.addEventListerner('click', () => {
+  nav.classList.toggle('open-menu');
+});
 </script>
 
 <style scoped>
@@ -28,13 +28,16 @@
   padding: .5rem 1rem;
 }
 .main-nav {
-  background: var(--gray);
-  width: 100%;
+  background: var(--grey);
+  width: 0;
   position: absolute;
   z-index: 2;
   top: 50px;
   right: 0;
   overflow: hidden;
+}
+.main-nav.open-menu {
+  width: 100%;
 }
 .main-nav li {
   text-align: center;
