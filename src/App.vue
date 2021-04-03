@@ -11,7 +11,7 @@ export default {
   name: 'App',
   components: {
     TheHeading,
-    TheSidebar,
+    TheSidebar
   }
 }
 </script>

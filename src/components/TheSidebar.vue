@@ -11,11 +11,11 @@
 </template>
 
 <script>
-const btn = document.querySelector('.btn-menu');
-const nav = document.querySelector('.main-nav');
-btn.addEventListerner('click', () => {
-  nav.classList.toggle('open-menu');
-})
+// const btn = document.querySelector('.btn-menu');
+// const nav = document.querySelector('.main-nav');
+// btn.addEventListerner('click', () => {
+//   nav.classList.toggle('open-menu');
+// })
 </script>
 
 <style scoped>

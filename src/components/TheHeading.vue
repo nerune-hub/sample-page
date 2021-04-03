@@ -1,5 +1,5 @@
 <template>
-  <p>ok, happy coding!</p>
+  <p>ok, happy coding! and more...!</p>
 </template>
 
 <script>
