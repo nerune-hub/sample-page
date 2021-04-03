@@ -1,7 +1,7 @@
 <template>
   <div class="home-chart">
-    <div class="pi-chart">
-      {{pi-chart}}
+    <div class="pie-chart">
+      {{piechart}}
     </div>
   </div>
 
@@ -18,14 +18,10 @@ var pieOptions = {
   height: '440px'
 };
 
-var piChart = {
-  new Chrtist.Pie('.pie-chart', 'pieData', pieOptions)
-};
-
 export default {
   data () {
     return {
-      pi-chart: piChart
+      piechart: Chartist.Pie('.pie-chart', pieData, pieOptions)
     }
   }
 };
