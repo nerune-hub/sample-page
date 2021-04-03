@@ -28,6 +28,7 @@ export default {
 
 /* CSS変数で色定義 */
 :root {
+  font-family: 'Kiwi Maru', serif;
   --white: white;
   --grey: grey;
 }
