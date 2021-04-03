@@ -4,7 +4,7 @@
     <ul class="main-nav">
       <li><a href="#about">About</a></li>
       <li><a href="#news">News</a></li>
-      <li><a href="#activity">Activity</a></li>
+      <li><a href="#activity">Activityi</a></li>
       <li><a href="#address">Address</a></li>
     </ul>
   </nav>
